@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="RunCustomToolsOnBuild.xiety.e4f3355f-e209-483b-9efb-c6de7dc9d7ea" Version="1.0" Language="en-US" Publisher="xiety" />
+    <DisplayName>RunCustomToolsOnBuild</DisplayName>
+    <Description xml:space="preserve">Run all custom tools for all solution files on every build</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+</PackageManifest>
